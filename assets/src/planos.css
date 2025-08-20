@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 370px;
+}
+#cardprincipal{
+    background-color: #ff5c00;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 350px;
+}
+
+.cards h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#cardprincipal h2{
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.cards h3 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#cardprincipal h3{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.cards ul{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.botao{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 14px;
+    border: none;
+    padding: 10px 24px;
+    width: 75%;
+}
+
+#cardprincipal button {
+
+}
+
