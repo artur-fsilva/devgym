@@ -11,33 +11,21 @@ body{
 }
 
 .cards {
-    background-color: black;
-    color: white;
+    background-color: white;
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
     flex-direction: column;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 500px;
-    width: 370px;
-}
-#cardprincipal{
-    background-color: #ff5c00;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 550px;
     width: 350px;
+    margin-top: 25px;
 }
 
-.cards h2{
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-#cardprincipal h2{
-    font-size: 1.6rem;
+.h2cards{
+    font-size: 1.3rem;
     text-align: center;
     font-weight: 800;
 }
@@ -47,31 +35,28 @@ body{
     text-align: center;
     font-weight: 700;
 }
-
-#cardprincipal h3{
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 700;
-}
-
 p{
     text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.1rem;
 }
 
-ul{
+.beneficios{
     list-style: none;
     padding: 0;
     margin: 15px 0;
 }
 
 .cards ul{
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: left;
     margin-left: 10px;
     font-weight: 300;
 }
 
 .botao{
+    background-color: #F25600;
     margin: 0 auto;
     text-align: center;
     font-weight: 800;
@@ -81,7 +66,42 @@ ul{
     width: 75%;
 }
 
-#cardprincipal button {
-
+li{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 8px;
 }
 
+.precos {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 800;
+}
+
+.condicoes{
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-align: left; 
+    padding-bottom: ;
+}
+
+/*Card Principal*/
+
+#cardprincipal h3{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#cardprincipal{
+    background-color: #3B3B40;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 350px;
+}
+
+/*Card Principal*/
